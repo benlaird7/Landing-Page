@@ -68,14 +68,43 @@ a:hover {
    height:300px;
    width: 300px;
 }
-#about-img {
+.image {
     max-height: 400px;
     max-width: 400px;
     object-fit: cover;
     border-radius: 100%;
 }
-#about-p {
+p {
     opacity: 60%;
 }
 
 /* End of about styles */
+ /* Features Styles */
+
+#Features {
+    background-color: grey;
+    color: var(--darkbackground-color);
+}
+.features-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+}
+
+.feature {
+    padding: 20px;  
+    max-width: 500px;
+}
+.h2-container {
+    top: 0;
+    border-top: 1px solid white;
+    padding-left: 30px;
+}
+.image-2{
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* End of Features Section */
