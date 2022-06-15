@@ -1,0 +1,50 @@
+:root {
+    --darkbackground-color: #1F2937;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    background-color: var(--darkbackground-color);
+    height: 60px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.nav-container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+h1 {
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+li {
+    list-style: none;
+    padding-right: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: burlywood;
+}
