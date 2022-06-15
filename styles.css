@@ -7,15 +7,18 @@
     font-family: sans-serif, Tahoma;
     margin: 0;
     padding: 0;
-}
+} 
+
+
 /* header styles */
 .header-section {
-    background-color: var(--darkbackground-color);
     height: 60px;
     width: 100%;
-    color: white;
     padding: 10px;
+    background-color: var(--darkbackground-color);
+    color: white;
 }
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -27,64 +30,73 @@
     display: flex;
     flex-direction: row;
     align-items: center;
- }
+}
 
 h1 {
     padding-left: 30px;
     font-size: 30px;
-    
+
 }
+
 li {
     list-style: none;
     padding-right: 50px;
     font-size: 18px;
     margin-top: 10px;
-    
+
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: burlywood;
 }
+
 /* end of header styles */
 
 /* About Styles */
 .about-container {
-   background-color: var(--darkbackground-color);
-   color: white;
-   height: 300px;
-   display: flex;
-   justify-content: center;
-
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkbackground-color);
+    color: white;
 }
-.text-content{
-    padding: 20px;  
+
+.text-content {
+    padding: 20px;
     max-width: 500px;
     font-size: 130%;
 }
+
 .image-content {
-   height:300px;
-   width: 300px;
+    height: 300px;
+    width: 300px;
 }
+
 .image {
     max-height: 400px;
     max-width: 400px;
     object-fit: cover;
     border-radius: 100%;
 }
+
 p {
     opacity: 60%;
 }
 
 /* End of about styles */
- /* Features Styles */
+/* Features Styles */
 
 #Features {
-    background-color: grey;
+    height: 300px;
+    background-color: white;
     color: var(--darkbackground-color);
 }
+
 .features-container {
     display: flex;
     flex-direction: row;
@@ -93,18 +105,29 @@ p {
 }
 
 .feature {
-    padding: 20px;  
+    padding: 20px;
     max-width: 500px;
 }
-.h2-container {
-    top: 0;
-    border-top: 1px solid white;
-    padding-left: 30px;
-}
-.image-2{
+
+
+
+.image-2 {
     max-height: 300px;
     max-width: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
+.feature-p {
+    font-size: 18px;
+}
 /* End of Features Section */
+/* quote */
+.quote-container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 60%;
+    font-size: 18px;
+    padding-top: 20px;
+    color: var(--darkbackground-color);
+}
