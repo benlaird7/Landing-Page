@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* header styles */
 .header-section {
     background-color: var(--darkbackground-color);
     height: 60px;
@@ -48,3 +48,33 @@ a {
 a:hover {
     color: burlywood;
 }
+/* end of header styles */
+
+/* About Styles */
+.about-container {
+   background-color: var(--darkbackground-color);
+   color: white;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+
+}
+.text-content{
+    padding: 20px;  
+    max-width: 500px;
+    font-size: 130%;
+}
+.image-content {
+   height:300px;
+   width: 300px;
+}
+img {
+    max-height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+}
+p {
+    opacity: 60%;
+}
+
+/* End of about styles */
