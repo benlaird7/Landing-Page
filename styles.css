@@ -141,15 +141,15 @@ p {
 
 #Prices {
     height: 300px;
-    background-color: rgb(59, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .box-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 30px;
-    background-color: rgb(59, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .box1, .box2, .box3 {
     height: 300px;
@@ -160,14 +160,20 @@ p {
     max-height: 300px;
     max-width: 300px;
     object-fit: cover;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 #price {
-    background-color: rgb(59, 0, 0);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
     width: 300px;
-    border: 1px solid white;
+    border: 3px solid black;
     font-size: 25px;
+    margin-top: 20px;
+}
+#price:hover {
+    color: #1F2937;
+    cursor: pointer;
+    border: 5px solid #1F2937;
 }
 h3 {
     padding-bottom: 20px;
@@ -176,8 +182,11 @@ h3 {
 }
 /* End of Prices Section */
 /* Footer */
-footer {
-    height: 100px;
+.footer {
+    height: 30px;
     width: 100%;
-    background-color: white;
+    background-color: black;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
 }
