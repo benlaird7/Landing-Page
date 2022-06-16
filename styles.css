@@ -123,11 +123,61 @@ p {
 /* End of Features Section */
 /* quote */
 .quote-container {
-    max-width: 400px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     opacity: 60%;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 25px;
+    padding-top: 50px;
     color: var(--darkbackground-color);
+    padding-bottom: 10px;
+    font-style: italic;
+} 
+.quote-section {
+    height: 300px;
+    background-color: rgb(180, 180, 180);
+}
+/* Prices */
+
+#Prices {
+    height: 300px;
+    background-color: rgb(59, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: rgb(59, 0, 0);
+}
+.box1, .box2, .box3 {
+    height: 300px;
+    width:300px;
+    text-align: center;
+}
+.box-img {
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+#price {
+    background-color: rgb(59, 0, 0);
+    color: white;
+    width: 300px;
+    border: 1px solid white;
+    font-size: 25px;
+}
+h3 {
+    padding-bottom: 20px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+/* End of Prices Section */
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: white;
 }
